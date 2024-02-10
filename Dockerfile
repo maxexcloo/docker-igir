@@ -1,4 +1,4 @@
 FROM node:lts
-RUN npx igir
+RUN npx igir -h
 ENTRYPOINT npx igir
 WORKDIR /data
