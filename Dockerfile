@@ -1,4 +1,4 @@
 FROM node:lts
-RUN npm install igir
-ENTRYPOINT ["npx", "igir"]
+RUN npm install -g igir
+ENTRYPOINT ["igir"]
 WORKDIR /data
